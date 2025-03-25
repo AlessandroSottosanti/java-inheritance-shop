@@ -20,7 +20,7 @@ public class Cuffie extends Prodotto {
     public void aggiornaDati(int codice, String nome, String marca, BigDecimal prezzo, BigDecimal iva) {
         setNome(nome);
         setMarca(marca);
-        setPrezzo(prezzo);
+        setPrezzoBase(prezzo);
         setIva(iva);
     }
 
