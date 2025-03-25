@@ -50,4 +50,9 @@ public class Televisori extends Prodotto {
     public void setSmart(boolean isSmart) {
         this.isSmart = isSmart;
     }
+
+    @Override
+    public String toString() {
+        return "Televisore " + this.getNome() + " da " + this.getPollici() + "''";
+    }
 }

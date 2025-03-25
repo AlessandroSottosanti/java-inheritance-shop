@@ -50,4 +50,9 @@ public class Cuffie extends Prodotto {
     public void setCablate(boolean cablate) {
         this.cablate = cablate;
     }
+
+    @Override
+    public String toString() {
+        return "Cuffie " + this.getNome() + " " + this.collegamento + " " +  this.getColore();
+    }
 }
